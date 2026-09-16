@@ -1,0 +1,30 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/crash.log
+terraform/crash.*.log
+
+# Terraform variables
+terraform/terraform.tfvars
+terraform/*.tfvars.json
+
+# AWS credentials / keys
+*.pem
+*.key
+.aws/
+
+# Jenkins
+jenkins_home/
+
+# Java
+target/
+*.class
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
